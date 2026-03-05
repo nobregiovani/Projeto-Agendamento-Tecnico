@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    padding: 40px;
+}
+
+/*-----TÍTULOS------*/
+h2 {
+    color: #1E3A8A;
+    margin-bottom: 25px;
+}
+
+/*-----LINKS------*/
+a, a.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+/*-----BOTÕES------*/
+button,
+input[type="submit"], .btn {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-right: 10px;
+    align-items: center;
+    min-width: 130px;
+    text-align: center;
+}
+
+button:hover,
+input[type="submit"]:hover, .btn:hover {
+    background-color: #1E3A8A;
+}
+
+
+button[name="excluir"] {
+    background-color: #DC2626;
+}
+
+button[name="excluir"]:hover {
+    background-color: #B91C1C;
+}
+
+.btn-novo {
+    display: inline-block;
+    background-color: #2563EB;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.btn-novo:hover {
+    background-color: #1E40AF;
+}
+
+.form-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;               
+    margin-top: 15px;
+}
+
+/*-----FORMULÁRIOS------*/
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #CBD5E1;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563EB;
+}
+
+/*-----TABELA------*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    
+}
+
+thead {
+    background-color: #1E3A8A;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    color: white;
+    background-color: #2563EB;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F1F5F9;
+}
+
+tbody tr:hover {
+    background-color: #E2E8F0;
+}
+
+/*-----MENSAGENS------*/
+
+p[style*="color:green"] {
+    background: var(#DCFCE7);
+    color: var(#166534) !important;
+    border: 1px solid #86efac;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+}
+
+p[style*="color:red"] {
+    background: var(#FEE2E2);
+    color: var(#991B1B) !important;
+    border: 1px solid #fecaca;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+}

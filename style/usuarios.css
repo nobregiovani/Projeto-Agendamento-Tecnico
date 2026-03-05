@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F4F6;
+    color: #374151;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #1E3A8A;
+    margin-bottom: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #2563EB;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*-----MENSAGENS------*/
+
+.mensagem.sucesso {
+    background: #DCFCE7;
+    color: #166534 !important;
+    border: 1px solid #86efac;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+}
+
+.mensagem.erro {
+    background: #FEE2E2;
+    color: #991B1B !important;
+    border: 1px solid #fecaca;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+}
+
+/*-----BOTÕES------*/
+.btn,
+button {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.btn:hover,
+button:hover {
+    background-color: #1E3A8A;
+    text-decoration: none;
+}
+
+.btn-secundario:hover {
+    background-color: #1E3A8A;
+}
+
+.btn-excluir,
+button[name="excluir"] {
+    background-color: #DC2626;
+}
+
+.btn-excluir:hover,
+button[name="excluir"]:hover {
+    background-color: #991B1B;
+}
+
+.form-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.form-botoes .btn,
+.form-botoes button {
+    min-width: 140px;
+    text-align: center;
+}
+
+/*-----FORMULÁRIOS------*/
+form {
+    background: #FFFFFF;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    max-width: 520px;
+    margin-top: 15px;
+}
+
+body > form {
+    margin: 15px 0;
+}
+
+label {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2563EB;
+}
+
+/*-----TABELA------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    margin-top: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+th {
+    background-color: #1E3A8A;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F9FAFB;
+}
+
+tbody tr:hover {
+    background-color: #E5E7EB;
+}
+
+td a {
+    font-weight: 600;
+}
+
+/*-----USUÁRIOS INATIVOS------*/
+
+/* Nome tachado */
+.inativo {
+    text-decoration: line-through;
+    opacity: 0.65;
+    color: #6B7280;
+}
+
+/* Tag visual "INATIVO" */
+.tag-inativo {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 14px;
+    background-color: #E5E7EB;
+    color: #374151;
+}
+
+/* Linha da tabela levemente apagada */
+tr.usuario-inativo {
+    background-color: #F9FAFB;
+}
+
+/* Botão reativar */
+.btn-reativar {
+    background-color: #16A34A;
+    color: #FFFFFF;
+}
+
+.btn-reativar:hover {
+    background-color: #15803D;
+}
+
+/*-----RESPONSIVIDADE------*/
+@media (max-width: 768px) {
+    body {
+        padding: 18px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .form-botoes {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-botoes .btn,
+    .form-botoes button {
+        width: 100%;
+        min-width: 0;
+    }
+}

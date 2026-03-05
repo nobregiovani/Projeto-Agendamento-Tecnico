@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+      linear-gradient(
+        rgba(0, 26, 199, 0.9),
+        rgba(57, 129, 253, 0.9)
+      );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login {
+    background-color:#0099ff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input {
+    border-style: groove;
+    border-radius: 5px;
+}
+
+input, :placeholder-shown {
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/*-----BOTÕES------*/
+button {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#buttonEntrar {
+    background-color: rgb(9, 232, 9);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttonEntrar:hover {
+    background-color: rgb(6, 124, 6);
+    color: white;
+}
+
+#buttonRegistrar {
+    background-color: rgb(252, 56, 56);
+}
+
+#buttonRegistrar:hover {
+    background-color: rgb(129, 28, 28);
+}
+
+.button-voltar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #072a76;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.button-voltar:hover {
+    background-color: #1e40af;
+}
+
+/*-----MENSAGEM------*/
+.area-mensagem{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* quando não há mensagem */
+.mensagem-vazia{
+    visibility: hidden;
+}
+.mensagem {
+    background: #FEE2E2;
+    color: #991B1B !important;
+    border: 1px solid #fecaca;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
