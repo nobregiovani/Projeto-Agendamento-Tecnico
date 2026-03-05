@@ -5,7 +5,7 @@ Passos para a execução do sistema:
 1. Criação do banco de dados
 
    
-   1.1 Copiar e executar os comandos dentro do arquivo BancoDeDados.txt dentro do phpMyAdmin;
+   1.1 Copiar e executar os comandos dentro do arquivo BancoDados.txt dentro do phpMyAdmin;
 
    
 2. Criação do usuário Admin
