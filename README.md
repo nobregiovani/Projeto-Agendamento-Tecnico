@@ -187,19 +187,23 @@ htdocs/agendamento_tecnico
 
 - Execute na url o seguinte caminho:
 
+
 ```
 localhost/agendamento_tecnico/scripts/criar_admin.php
 ```
+
 
 - Caso apareça a seguinte mensagem: "Administrador criado com sucesso! 🚀", o usuário admin foi criado.
 
 
 5. Acesse no navegador
 
+
 ```
 http://localhost/agendamento_tecnico
 ```
----
+
+
 
 # Autor
 
