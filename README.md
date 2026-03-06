@@ -170,7 +170,7 @@ git clone https://github.com/seuusuario/agendamento_tecnico.git
 
 2. Copie a pasta para o diretório do servidor
 
-Exemplo no XAMPP:
+- Exemplo no XAMPP:
 
 ```
 htdocs/agendamento_tecnico
@@ -178,16 +178,16 @@ htdocs/agendamento_tecnico
 
 3. Crie o banco de dados no MySQL
 
-  - Os comandos de criação do banco de dados estão dentro do arquivo Bancodados.txt .
+- Os comandos de criação do banco de dados estão dentro do arquivo Bancodados.txt .
 
 4. Crie o usuário administrador.
 
-  - Execute na url o seguinte caminho:
+- Execute na url o seguinte caminho:
 
 ```
 localhost/agendamento_tecnico/scripts/criar_admin.php
 ```
-  - Caso apareça a seguinte mensagem: "Administrador criado com sucesso! 🚀", o usuário admin foi criado.
+- Caso apareça a seguinte mensagem: "Administrador criado com sucesso! 🚀", o usuário admin foi criado.
 
 6. Acesse no navegador
 
