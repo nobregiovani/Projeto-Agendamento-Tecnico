@@ -178,34 +178,25 @@ htdocs/agendamento_tecnico
 ```
 
 
-3. Crie o banco de dados no MySQL
-
-   
-- Os comandos de criação do banco de dados estão dentro do arquivo Bancodados.txt .
-
+3. Crie o banco de dados no MySQL<br><br>
+     
+- Os comandos de criação do banco de dados estão dentro do arquivo Bancodados.txt .<br><br>
   
-4. Crie o usuário administrador.
-
-   
-- Execute na url o seguinte caminho:
-
+4. Crie o usuário administrador<br><br>
+     
+    4.1 Execute na url o seguinte caminho:
   
-```
-localhost/agendamento_tecnico/scripts/criar_admin.php
-```
+   ```
+   localhost/agendamento_tecnico/scripts/criar_admin.php
+   ```
 
-
-- Caso apareça a seguinte mensagem: "Administrador criado com sucesso! 🚀", o usuário admin foi criado.
-
-- 
+    4.2 Caso apareça a seguinte mensagem: "Administrador criado com sucesso! 🚀", o usuário admin foi criado.<br><br>
+  
 5. Acesse no navegador
-
-  
+    
 ```
 http://localhost/agendamento_tecnico
 ```
-
-
 
 # Autor
 
