@@ -190,6 +190,7 @@ htdocs/agendamento_tecnico
 ```
 localhost/agendamento_tecnico/scripts/criar_admin.php
 ```
+
 - Caso apareça a seguinte mensagem: "Administrador criado com sucesso! 🚀", o usuário admin foi criado.
 
 
